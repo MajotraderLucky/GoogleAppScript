@@ -1,5 +1,5 @@
 function saveLine() {
-  const ss = SpreadsheetApp.openById('1Bt_1EecVFhoao513_RApzQ4vkXo9o-QcU-M2p8i1VKY')
+  const ss = SpreadsheetApp.openById('Your ID spreadsheets')
   const activeSheet = ss.getActiveSheet()
 
     if(activeSheet.getRange('G2').isChecked()) {
